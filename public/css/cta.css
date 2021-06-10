@@ -11,7 +11,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 10rem;
+  padding-top: 8rem;
 }
 
 .cta > .cta-title > .cta-img {
@@ -55,11 +55,12 @@
 
 .cta > button > img {  
   height: 1.5rem;
-  width: 1.5rem;  
+  width: 1.5rem;
+  background-color: white;
 }
 
 .cta > button > span {  
   color: white;
-  font-size: 1rem;
+  font-size: 1.25rem;
   text-transform: uppercase;
 }
