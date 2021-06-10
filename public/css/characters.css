@@ -1,0 +1,43 @@
+.characters {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+}
+
+.characters > .cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 4rem;
+  grid-row-gap: 4rem;
+}
+
+.characters > .cards > img {
+  width: 20rem;
+  height: 15rem;
+  border-radius: 0.5rem;
+}
+
+.characters > .characters-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.characters > .characters-title > span {
+  font-size: 3em;
+  font-style: italic;
+}
+
+.characters > .characters-title > .characters-img {
+  margin-bottom: 1rem;
+}
+
+.characters > .characters-title > .characters-img > img {
+  height: 2.5rem;
+  width: 2.5rem;
+}

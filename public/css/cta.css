@@ -1,0 +1,65 @@
+.cta {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(#e29b15, #ffa600d2);
+}
+
+.cta > .cta-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10rem;
+}
+
+.cta > .cta-title > .cta-img {
+  padding-bottom: 1rem;  
+}
+
+.cta > .cta-title > .cta-img > img {
+  height: 2.5rem;
+  width: 2.5rem;  
+}
+
+.cta > .cta-title > span {  
+  color: #252525;
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: 900;  
+}
+
+.cta > .cta-texts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  color: #665858;
+  margin: 2rem 0;
+  font-size: 1.5rem; 
+  padding: 0 20rem; 
+}
+
+.cta > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  background-color: black;
+  width: 12rem;
+  height: 4rem;
+  border-radius: 0.5rem;
+  border-width: thin;
+  margin-top: 3.5rem;
+}
+
+.cta > button > img {  
+  height: 1.5rem;
+  width: 1.5rem;  
+}
+
+.cta > button > span {  
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
