@@ -1,7 +1,7 @@
 ## Desafio Heroway
 ### Módulo 1 - HTML e CSS
 
-* Desenvolver site responsivo sobre Spider-man conforme layout apresentado. 
+* Desenvolver site responsivo sobre Street Fighter conforme layout apresentado. 
 
 #### Tecnologias usadas:
   * HTML e CSS
