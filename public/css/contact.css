@@ -1,8 +1,22 @@
+.feedback {
+  width: 100%;
+  height: 100%;
+}
+
 .feedback > .feedback-title {
   display: flex;
   flex-direction: column;  
   align-items: center;
-  
+  margin-top: 9rem;
+  margin-bottom: 5rem;
+}
+
+.feedback > .feedback-title > span {
+  font-size: 3rem;
+  font-weight: 900;
+  font-style: italic;
+  text-transform: uppercase;
+  margin-top: 1rem;
 }
 
 .feedback > .feedback-title > .feedback-img > img {
@@ -10,6 +24,35 @@
   width: 2.5rem;  
 }
 
+.feedback > form > .inputs {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rem;
+}
+
+.feedback > form > .inputs > label {
+  font-size: 1.5rem;
+  color: gray;    
+}
+
+.feedback > form > .inputs > input {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  width: 30rem;
+  height: 2rem;
+  border-style: none;
+}
+
 .feedback > button {
-  background-color: #e29b15;
+  margin-left: 20rem;
+  margin-top: 7rem;
+  margin-bottom: 6rem;
+  color: white;
+  font-size: 1.3rem;
+  background-color: #eeb740;
+  width: 7rem;
+  height: 4rem;
+  border-style: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
 }
