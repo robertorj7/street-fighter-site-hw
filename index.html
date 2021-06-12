@@ -73,8 +73,14 @@
   </section>
 
   <section class="feedback">
-    <span>FEEDBACK</span>
-    <form action="submit">
+    <div class="feedback-title">
+      <div class="feedback-img">        
+        <img src="./public/assets/fight.png" alt="Hand Fight">
+      </div>
+      <span>Feedback</span>
+    </div>
+
+    <form>
       <div class="name">
         <label for="name">Name:</label>
         <input type="text" name="name" id="name">
@@ -91,10 +97,11 @@
         <label for="feedback">Feedback:</label>
         <input type="text" name="feedback">
       </div>
-
-      <button type="submit">Send</button>
     </form>
+    
+    <button>Send</button>
   </section>
+
   <footer class="midia">
     <div class="midia-container">
       <span>
@@ -119,5 +126,6 @@
       <span>Copyright © Your Website 2021</span>
     </div>
   </footer>
+
 </body>
 </html>

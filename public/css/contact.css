@@ -1,0 +1,15 @@
+.feedback > .feedback-title {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  
+}
+
+.feedback > .feedback-title > .feedback-img > img {
+  height: 2.5rem;
+  width: 2.5rem;  
+}
+
+.feedback > button {
+  background-color: #e29b15;
+}
