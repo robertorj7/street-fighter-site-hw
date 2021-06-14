@@ -41,3 +41,13 @@
   height: 2.5rem;
   width: 2.5rem;
 }
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .characters > .cards {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* TABLET */
