@@ -56,3 +56,22 @@
   border-radius: 0.5rem;
   cursor: pointer;
 }
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .feedback > form > .inputs {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+  }
+
+  .feedback > button {
+    margin-left: 1rem;
+  }
+}
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1100px) {
+ 
+}
+

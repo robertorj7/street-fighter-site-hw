@@ -21,3 +21,22 @@ header > nav {
   gap: 3rem;
   cursor: pointer;
 }
+
+/* MOBILE */
+@media (max-width: 768px) {
+  header {      
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 8rem;
+  }
+  
+  header > img {
+    margin-top: 1rem;
+  }
+  
+  header > nav {        
+    gap: 1rem;
+    margin-bottom: 1rem;    
+  }
+}
