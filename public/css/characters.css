@@ -7,19 +7,6 @@
   margin-bottom: 5rem;
 }
 
-.characters > .cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 4rem;
-  grid-row-gap: 4rem;
-}
-
-.characters > .cards > img {
-  width: 20rem;
-  height: 15rem;
-  border-radius: 0.5rem;
-}
-
 .characters > .characters-title {
   display: flex;
   flex-direction: column;
@@ -42,11 +29,52 @@
   width: 2.5rem;
 }
 
+.characters > .cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 4rem;
+  grid-row-gap: 4rem;
+}
+
+.characters > .cards > img {
+  width: 20rem;
+  height: 15rem;
+  border-radius: 0.5rem;
+}
+
 /* MOBILE */
 @media (max-width: 768px) {
+  .characters {    
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .characters > .characters-title {    
+    margin-bottom: 1rem;
+  }
+
+  .characters > .characters-title > .characters-img {
+    margin-bottom: 0.5rem;
+  }
+  
+  .characters > .characters-title > span {
+    font-size: 1rem;    
+  }
+
+  .characters > .characters-title > .characters-img > img {
+    height: 2rem;
+    width: 2rem;
+  }
+
   .characters > .cards {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
+    grid-row-gap: 2rem;
+  }
+
+  .characters > .cards > img {
+    width: 12rem;
+    height: 9rem;    
   }
 }
 
