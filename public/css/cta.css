@@ -10,7 +10,7 @@
 .cta > .cta-title {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center;  
   padding-top: 6rem;
 }
 
@@ -71,9 +71,33 @@
   .cta > .cta-texts {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: center;
     color: #665858;
     margin: 2rem 0;
-    font-size: 1.5rem;     
+    font-size: 1rem;     
+    padding: 0 0; 
+  }
+
+  .cta > .cta-title {    
+    padding-top: 3rem;
+  }
+
+  .cta > .cta-title > span {    
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .cta > button {    
+    width: 8rem;
+    height: 3.5rem;
+    margin-top: 1rem; 
+    margin-bottom: 2rem;
+  }
+
+  .cta > button > span {      
+    font-size: 0.75rem;
+    font-weight: bolder;   
   }
 }
 

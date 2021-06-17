@@ -16,7 +16,7 @@
 }
 
 .characters > .characters-title > span {
-  font-size: 3em;
+  font-size: 3rem;
   font-style: italic;
 }
 
@@ -58,7 +58,7 @@
   }
   
   .characters > .characters-title > span {
-    font-size: 1rem;    
+    font-size: 2rem;    
   }
 
   .characters > .characters-title > .characters-img > img {
