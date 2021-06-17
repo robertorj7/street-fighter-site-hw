@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: column;  
   align-items: center;
-  margin-top: 9rem;
+  margin-top: 6rem;
   margin-bottom: 5rem;
 }
 
@@ -63,6 +63,10 @@
     display: flex;
     flex-direction: column;
     margin-left: 1rem;
+  }
+
+  .feedback > form > .inputs > input {    
+    width: 18rem;        
   }
 
   .feedback > button {
