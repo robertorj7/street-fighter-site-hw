@@ -43,18 +43,6 @@ street-fighter-site-hw/
    ```
 2. Abra o arquivo `index.html` no seu navegador.
 
-## 📷 Imagens
-
-Inclua capturas de tela do site aqui, caso deseje.
-
-## ✍️ Contribuição
-
-Sinta-se à vontade para abrir issues ou pull requests com sugestões e melhorias!
-
 ## 📄 Licença
 
 Este projeto é apenas para fins educacionais e não possui vínculo oficial com a Capcom ou a franquia Street Fighter.
-
----
-
-Feito com 💥 por [robertorj7](https://github.com/robertorj7)
