@@ -10,8 +10,6 @@ O site apresenta informações sobre os personagens clássicos do Street Fighter
 
 - HTML5
 - CSS3
-- JavaScript (opcional, caso tenha interatividade)
-- [Adicione aqui outras tecnologias se houver]
 
 ## 📁 Estrutura do Projeto
 
