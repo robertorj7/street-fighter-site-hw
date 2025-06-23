@@ -1,12 +1,60 @@
-## Desafio Heroway
-### Módulo 1 - HTML e CSS
+# Street Fighter Site HW
 
-* Desenvolver site responsivo sobre Street Fighter conforme layout apresentado. 
+Este é um projeto de site inspirado no universo de Street Fighter, desenvolvido como uma atividade prática. O objetivo é criar uma página web dedicada ao famoso jogo de luta, com foco em apresentação de personagens, história e elementos visuais marcantes da franquia.
 
-#### Tecnologias usadas:
-  * HTML e CSS
+## 🕹️ Sobre o Projeto
 
-#### Passos:
+O site apresenta informações sobre os personagens clássicos do Street Fighter, imagens, curiosidades e uma breve história do jogo. O layout e o design buscam remeter à atmosfera dos arcades e dos jogos clássicos.
 
-1. Clonar a pasta do repositório;
-2. Abrir arquivo `index.html` no navegador. 
+## 🚀 Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+- JavaScript (opcional, caso tenha interatividade)
+- [Adicione aqui outras tecnologias se houver]
+
+## 📁 Estrutura do Projeto
+
+```
+street-fighter-site-hw/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js (caso exista)
+├── images/
+│   └── (imagens dos personagens e do jogo)
+└── README.md
+```
+
+## 🎮 Funcionalidades
+
+- Página inicial com introdução ao universo Street Fighter
+- Seção de personagens com imagens e descrições
+- Galeria de imagens
+- Curiosidades sobre a franquia
+- [Adicione outras funcionalidades específicas do seu projeto]
+
+## 💡 Como Utilizar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/robertorj7/street-fighter-site-hw.git
+   ```
+2. Abra o arquivo `index.html` no seu navegador.
+
+## 📷 Imagens
+
+Inclua capturas de tela do site aqui, caso deseje.
+
+## ✍️ Contribuição
+
+Sinta-se à vontade para abrir issues ou pull requests com sugestões e melhorias!
+
+## 📄 Licença
+
+Este projeto é apenas para fins educacionais e não possui vínculo oficial com a Capcom ou a franquia Street Fighter.
+
+---
+
+Feito com 💥 por [robertorj7](https://github.com/robertorj7)
